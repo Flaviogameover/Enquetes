@@ -8,3 +8,11 @@
 
 - inicie o server em '/server npm start'
 - inicie o client em '/client npm start'
+
+## TECNOLOGIAS UTILIZADAS
+
+- ReactJS
+- TypeScript
+- Axios
+- NodeJS
+- MySql
