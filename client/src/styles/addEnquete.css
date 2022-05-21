@@ -1,0 +1,95 @@
+.add-enquete {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.add-enquete .btn-voltar{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: #00bcd4;
+    margin-right: 5px;
+}
+
+.add-enquete h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin: 20px 0;
+}
+
+.add-enquete form {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="datetime-local"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0.5em 0;
+}
+
+.btn-remove{
+    background-color: #f44336;
+    color: #fff;
+    border: 1px solid #f44336;
+    border-radius: 3px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+.btn-remove:hover{
+    opacity: 0.8;
+}
+
+.btn {
+    width: 100%;
+    margin: 0.5em 0;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.btn-option{
+    border: 2px dotted #00bcd4;
+    background-color: #fff;
+    color: #00bcd4;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.btn-option:hover{
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.btn-submit{
+    padding: 0.5em;
+    background-color: #00bcd4;
+    border: 0;
+    color: #fff;
+}
+
+.btn-submit:hover{
+    background-color: #0f9eb1;
+}

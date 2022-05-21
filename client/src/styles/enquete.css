@@ -1,0 +1,95 @@
+.enquete{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.enquete .btn-voltar{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: #00bcd4;
+    margin-right: 5px;
+}
+
+.enquete h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 20px 0;
+}
+
+.enquete p{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.enquete form{
+    max-width: 500px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.enquete form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.enquete form input[type="radio"]{
+    margin-right: 10px;
+}
+
+.enquete form label{
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.enquete form button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+}
+
+.enquete form button:hover{
+    background-color: #0097a7;
+}
+
+@media screen and (max-width: 768px){
+    .enquete h1{
+        font-size: 1.2em;
+    }
+
+    .enquete p{
+        font-size: 1em;
+    }
+
+    .enquete form{
+        max-width: 100%;
+    }
+
+    .enquete form div{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .enquete form button{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
