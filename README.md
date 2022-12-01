@@ -1,5 +1,9 @@
 ## PROJETO ENQUETE
 
+
+![](./enquetes1.png)
+![](./enquetes2.png)
+
 ## COMO UTILIZAR
 
 - Clone o projeto e em cada pasta carregue o npm install (client/server)
